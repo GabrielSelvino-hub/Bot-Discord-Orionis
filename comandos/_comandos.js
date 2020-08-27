@@ -9,14 +9,14 @@ exports.run = async (bot, message, args) => {
     .setThumbnail('https://media.discordapp.net/attachments/597540436260945950/721513229032882196/bot_ori.png?width=492&height=429')
 	.setTitle('COMANDOS')
 	.setAuthor('Orionis', 'https://media.discordapp.net/attachments/597540436260945950/721513229032882196/bot_ori.png?width=492&height=429', '')
-    .addField('ping', "Ori.ping")
-    .addField('delete', "Ori.del <quantidade> ( deleta msg's até 100 )")
-    .addField('Developer', "Ori.developer")
-    .addField('avatar', "Ori.avatar ou Ori.avatar @user")
-    .addField('mute', 'Ori.mute @user <tempo> <motivo>')
-    .addField('kick', 'Ori.kick @user <motivo>')
-    .addField('unmute', 'Ori.unmute @user ( desmuta )')
-    .addField('ban', 'Ori.ban @user [motivo]')
+    .addField('ping', "o.ping")
+    .addField('delete', "o.del <quantidade> ( deleta msg's até 100 )")
+    .addField('Developer', "o.demo")
+    .addField('avatar', "o.avatar ou Ori.avatar @user")
+    .addField('mute', 'o.mute @user <tempo> <motivo>')
+    .addField('kick', 'o.kick @user <motivo>')
+    .addField('unmute', 'o.unmute @user ( desmuta )')
+    .addField('ban', 'o.ban @user [motivo]')
 
 message.channel.send(embed);
 }

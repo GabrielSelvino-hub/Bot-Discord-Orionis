@@ -9,5 +9,5 @@ exports.run = async(bot, message, args) => {//comando em tests
 }
 
 exports.help = {
-    name: "Ori.img"
+    name: "o.img"
 }

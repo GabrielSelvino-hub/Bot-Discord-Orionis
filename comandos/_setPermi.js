@@ -16,5 +16,5 @@ exports.run = (bot, message, args) => {//problema na implantação
 }
 
 exports.help = {
-    name: "Ori.muteall"
+    name: "o.muteall"
 }

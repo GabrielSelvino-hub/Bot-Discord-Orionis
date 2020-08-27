@@ -21,5 +21,5 @@ exports.run = async(bot, message, args) => { //comando em tests
 }
 
 exports.help = {
-    name: 'Ori.dm'
+    name: 'o.dm'
 }

@@ -13,10 +13,11 @@ exports.run = async (bot, message, args) => {
     .addField('delete', "o.del <quantidade> ( deleta msg's até 100 )")
     .addField('Developer', "o.demo")
     .addField('avatar', "o.avatar ou o.avatar @user")
-    .addField('mute', 'o.mute @user <tempo> <motivo>')
+    .addField('mute', 'o.mute @user <tempo(m, h, d)> <motivo>')
     .addField('kick', 'o.kick @user <motivo>')
     .addField('unmute', 'o.unmute @user ( desmuta )')
     .addField('ban', 'o.ban @user [motivo]')
+    .addField('sorteio', 'o.sorte <tempo(m, h, d)> <canal do sorteio> <premio>')
 
 message.channel.send(embed);
 }

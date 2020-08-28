@@ -68,7 +68,7 @@ var emb4 = new Discord.MessageEmbed()
     .setColor('#b33cf0')
     .setDescription(`${mutee} foi mutado, Tempo: \` ${ms(ms(time))} \`, Motivo: \` ${reason} \``)
     message.channel.send(emb4).then(m => 
-        m.delete({ timeout: 10000, reason: 'It had to be done.' }))
+        m.delete({ timeout: 5000, reason: 'It had to be done.' }))
     console.log(time)
     console.log(mutee)
 }

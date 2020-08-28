@@ -9,7 +9,7 @@ exports.run =  async (bot, message, args) => {
       !args[0].endsWith("m")
     )
       return message.channel.send(
-        `use Ori.sorte <tempo(m, h, d)> <canal do sorteio> <premio>`
+        `use o.sorte <tempo(m, h, d)> <canal do sorteio> <premio>`
       );
     if (isNaN(args[0][0])) return message.channel.send(`Isso não é um número!`);
     let channel = message.mentions.channels.first();

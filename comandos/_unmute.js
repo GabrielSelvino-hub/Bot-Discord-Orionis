@@ -40,7 +40,7 @@ exports.run = (bot, message, args) => {
     .setColor('#b33cf0')
     .setDescription(`O membro ${membro} agora pode falar novamente.`)
     message.channel.send(emb4).then(m => 
-        m.delete({ timeout: 10000, reason: 'It had to be done.' }))
+        m.delete({ timeout: 5000, reason: 'It had to be done.' }))
     message.delete()
     var emb5 = new Discord.MessageEmbed()
     .setColor('#b33cf0')

@@ -5,7 +5,7 @@ const Discord = require("discord.js");
 exports.run = async (bot, message, args) => {
     const embed = new Discord.MessageEmbed()
     .setColor('#ff385e')
-    .setFooter('Este bot está sendo desenvolvido por ! [𝙶] 𝚊#3626', 'https://media.discordapp.net/attachments/597540436260945950/721513229032882196/bot_ori.png?width=492&height=429')
+    .setFooter("Este bot está sendo desenvolvido por Demo'n#8468", 'https://media.discordapp.net/attachments/597540436260945950/721513229032882196/bot_ori.png?width=492&height=429')
     .setThumbnail('https://media.discordapp.net/attachments/597540436260945950/721513229032882196/bot_ori.png?width=492&height=429')
 	.setTitle('COMANDOS')
 	.setAuthor('Orionis', 'https://media.discordapp.net/attachments/597540436260945950/721513229032882196/bot_ori.png?width=492&height=429', '')

@@ -1,11 +1,12 @@
 # Bot-Orionis
 
  Orionis bot é um bot de administração de servidor discord.
-
+ 
  - Comandos basicos.
+ ![bot orionis1](https://user-images.githubusercontent.com/65677195/91594384-37b0de80-e938-11ea-8aa3-18442a25319b.png)
  
   ![Screenshot_1](https://user-images.githubusercontent.com/65677195/91519509-34cad500-e8c9-11ea-9d51-81be0c13a1bd.png)
-  
+
  - O ping (para saber o tempo de resposta do bot):
    
    ![Screenshot_2](https://user-images.githubusercontent.com/65677195/91519596-7491bc80-e8c9-11ea-8116-b9b8dc79fc52.png)

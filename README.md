@@ -4,6 +4,8 @@
  
  - Comandos basicos.
 
+   ![Screenshot_5](https://user-images.githubusercontent.com/65677195/91595532-1650f200-e93a-11ea-80e4-1c4c96cf5483.png)
+
  - O ping (para saber o tempo de resposta do bot):
    
    ![Screenshot_2](https://user-images.githubusercontent.com/65677195/91519596-7491bc80-e8c9-11ea-8116-b9b8dc79fc52.png)

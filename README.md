@@ -31,7 +31,7 @@ Os comandos adm:
    
 # Instalações Necessárias
    
-   **É necessário node.js 12.0.0 ou mais atualizado.**
+   **É necessário node.js 12.0.0 ou o mais atualizado.**
    
    Instale a biblioteca discord.js  `npm install discord.js` 
    

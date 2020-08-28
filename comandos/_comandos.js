@@ -12,7 +12,7 @@ exports.run = async (bot, message, args) => {
     .addField('ping', "o.ping")
     .addField('delete', "o.del <quantidade> ( deleta msg's até 100 )")
     .addField('Developer', "o.demo")
-    .addField('avatar', "o.avatar ou Ori.avatar @user")
+    .addField('avatar', "o.avatar ou o.avatar @user")
     .addField('mute', 'o.mute @user <tempo> <motivo>')
     .addField('kick', 'o.kick @user <motivo>')
     .addField('unmute', 'o.unmute @user ( desmuta )')

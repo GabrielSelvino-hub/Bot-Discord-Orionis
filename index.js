@@ -36,8 +36,8 @@ bot.on('ready', () => {
     console.log(`Bot foi iniciado com sucesso`);
     // activites
     let activites = [
-        `meu prefixo é Ori.`,
-        `${bot.guilds.cache.size} servidores.`,   
+        `meu prefixo é o.`,
+        `${bot.guilds.cache.size} servidor.`,   
         `${bot.channels.cache.size} canais.`,
         `${bot.users.cache.size} usuários.`
     ],
@@ -69,7 +69,7 @@ bot.on("guildMemberRemove", async member => {
     .setColor('#b33cf0')
     .setTitle('ADEUS')
     .setDescription(`${member} saiu do servidor`);
-    const canal1 = bot.channels.cache.get("722264696228413481");
+    const canal1 = bot.channels.cache.get("748719536324345977");
     canal1.send(emb2);
 
 })
@@ -84,27 +84,27 @@ bot.on("guildMemberAdd", async member => {
     guildInvites.set(member.guild.id, newInvites);
     const usedInvite = newInvites.find(inv => cachedInvites.get(inv.code).uses < inv.uses);
     const inviter = bot.users.cache.get(usedInvite.inviter.id);
-    
-    let memberavatar = inviter.displayAvatarURL({ dynamic: true, format: 'png', size: 1024});
+    let mebr = member.user
+    let memberavatar = mebr.displayAvatarURL({ dynamic: true, format: 'png', size: 1024});
     const embed = new MessageEmbed()
         .setThumbnail(`${memberavatar}`)
         .setColor('#b33cf0')
         .setAuthor(`Orionis-Bot`, 'https://media.discordapp.net/attachments/597540436260945950/721513229032882196/bot_ori.png?width=492&height=429', '')
         .setTitle('BEM VINDO!')
-        .setDescription(`Seja bem vindo ${member.user.tag}\nEntrou pelo link: discord.gg/${usedInvite.code} \nUsos: ${usedInvite.uses} \nConvidado por: ${inviter}`)//${usedInvite.code}${usedInvite.uses}
+        .setDescription(`Seja bem vindo ${member.user}\nEntrou pelo link: discord.gg/${usedInvite.code} \nUsos: ${usedInvite.uses} \nConvidado por: ${inviter}`)//${usedInvite.code}${usedInvite.uses}
      
-    const welcomeChannel = member.guild.channels.cache.find(channel => channel.id === '722264696228413481');
+    const welcomeChannel = member.guild.channels.cache.find(channel => channel.id === '748581844684898385');
     let nomeserver = member.guild.name
     //embed para bem vindo no privado
     var embd = new Discord.MessageEmbed()
     .setColor('#b33cf0')
     .setTitle(`Seja Bem Vindo(a) ao \_\*\`${nomeserver}\`\*\_`)
     .setAuthor('Orionis-Bot', 'https://media.discordapp.net/attachments/597540436260945950/721513229032882196/bot_ori.png?width=492&height=429', '')
-    .setImage('https://media.giphy.com/media/ASd0Ukj0y3qMM/giphy.gif')
+    .setImage('https://media.giphy.com/media/6hM6w8fVK2tcQ/giphy.gif')
     .setThumbnail('https://media.discordapp.net/attachments/597540436260945950/721513229032882196/bot_ori.png?width=492&height=429')
     member.send(embd);    
 
-    const channel1 = bot.channels.cache.get('722264696228413481');
+    const channel1 = bot.channels.cache.get('748581844684898385');
     if(welcomeChannel) {
         welcomeChannel.send(embed).catch(err => console.log(err));
         
@@ -115,9 +115,9 @@ bot.on("guildMemberAdd", async member => {
         
         
  
-        channel1.send(`${member} Seja Bem Vindo(a) ao ${nomeserver}`);
+        //channel1.send(`${member} Seja Bem Vindo(a) ao ${nomeserver}`);
         
-        member.roles.add('722264696228413481') //da teg quando entra no server, numero id da teg  
+        member.roles.add('748565889900871693') //da teg quando entra no server, numero id da teg  
         console.log(member)
     }
 })

@@ -8,7 +8,7 @@ exports.run = (bot, message, args) => {
 
     var emb = new Discord.MessageEmbed()
     .setColor('#ff385e')
-    .setDescription(`mencione um usuario! ex.: Ori.ban @membro [motivo]`)
+    .setDescription(`mencione um usuario! ex.: o.ban @membro [motivo]`)
     message.delete()
     if (!membro) return message.channel.send(emb).then(m => 
         m.delete({ timeout: 5000, reason: 'It had to be done.' }))

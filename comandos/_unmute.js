@@ -45,7 +45,7 @@ exports.run = (bot, message, args) => {
     var emb5 = new Discord.MessageEmbed()
     .setColor('#b33cf0')
     .setDescription(`${membro} foi desmutado por \`${message.author.tag}\``);
-    const channe4 = bot.channels.cache.get('721514489773817966')
+    const channe4 = bot.channels.cache.get('748719536324345977')
     channe4.send(emb5)
   }
 

@@ -51,7 +51,7 @@ mutee.roles.add(muterole.id).then(() => {
     var emb4 = new Discord.MessageEmbed()
     .setColor('#b33cf0')
     .setDescription(`${mutee} foi mutado, Tempo: \` ${ms(ms(time))} \`, Motivo: \` ${reason} \``)
-    const channel2 = bot.channels.cache.get('721514489773817966')
+    const channel2 = bot.channels.cache.get('748719536324345977');
     channel2.send(emb4)
     message.delete()
 })
@@ -60,7 +60,7 @@ setTimeout(function(){
     var emb5 = new Discord.MessageEmbed()
     .setColor('#b33cf0')
     .setDescription(`${mutee} foi desmutado`)
-    const channel1 = bot.channels.cache.get('721514489773817966');
+    const channel1 = bot.channels.cache.get('748719536324345977');
     channel1.send(emb5)
   })
 }, ms(time))

@@ -6,7 +6,7 @@ exports.run = (bot, message, args) => {
     let demon = message.author.tag
 
 
-    if(demon==="Demo"){
+    if(demon==="Demo#8468"){
         message.delete()
         message.channel.send("Gabriel Selvino o desenvolvedor do bot Orionis")
     }

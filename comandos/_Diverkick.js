@@ -37,7 +37,6 @@ exports.run = async (bot, message, args) => {
             .setAuthor(message.author.username, avatar);
         message.channel.send(embed);
 }
-test
 exports.help = {
     name: "od.kick"
 }

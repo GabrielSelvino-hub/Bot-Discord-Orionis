@@ -28,9 +28,10 @@ Os comandos adm:
    ![Untitled5](https://user-images.githubusercontent.com/65677195/91521203-84ab9b00-e8cd-11ea-8231-aed696d8ef60.gif)
    ![Untitled6](https://user-images.githubusercontent.com/65677195/91521204-85dcc800-e8cd-11ea-8564-8fb934e40ff4.gif)
    
+   
 # Instalações Necessárias
    
-   **É necessário node.js 12.0.0 ou mais novo.**
+   **É necessário node.js 12.0.0 ou mais atualizado.**
    
    Instale a biblioteca discord.js  `npm install discord.js` 
    

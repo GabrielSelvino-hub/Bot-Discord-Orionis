@@ -33,7 +33,7 @@ bot.on('ready', () => {
             .catch(err => console.log(err));
     });
 
-    console.log(`Bot foi iniciado com sucesso`);
+    console.log(`Bot foi iniciado com sucesso!!`);
     // activites
     let activites = [
         `meu prefixo é o.`,
